@@ -94,6 +94,7 @@ video {
 .capa {
     position: absolute;
     top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
     background: var(--theme-color);
@@ -173,7 +174,8 @@ hr:hover{
     position: relative;
     z-index: 2;
     text-align: end;
-    max-width: 1500px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .footer img {

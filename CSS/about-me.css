@@ -109,6 +109,7 @@ video {
     z-index: 2;
     text-align: end;
     max-width: 1500px;
+    margin: 0 auto;
 }
 
 .footer img {
