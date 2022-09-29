@@ -115,4 +115,5 @@ video {
 .footer img {
     background:var(--elements-icons);
     margin: 0 30px;
+    border-radius: 10px;
 }

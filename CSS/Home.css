@@ -109,7 +109,7 @@ video {
     text-align: center;
     font-family: var(--font-family-primary);
     word-spacing: 10px;
-    font-size: 150px;
+    font-size: 100px;
     font-weight: 400;
     margin-top: 50px;
     position: relative;
@@ -120,7 +120,7 @@ video {
     position: relative;
     z-index: 2;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 300;
 }
 
@@ -130,12 +130,13 @@ hr {
     height: 3px;
     width: 400px;
     margin: 5px auto;
+    background: var(--elements-icons);
 }
 hr:hover{
     border-radius: 5px;
     background: var(--elements-icons);
     height: 5px;
-    width: 600px;
+    width: 500px;
     margin: 5px auto;
 }
 
@@ -150,7 +151,7 @@ hr:hover{
     background-color: var(--theme-color);
     font-family: var(--font-family-secundary);
     font-weight: 300;
-    font-size: 50px;
+    font-size: 30px;
     border: 0;
     border-radius: 10px;
     margin: 30px 0;
@@ -181,4 +182,5 @@ hr:hover{
 .footer img {
     background:var(--elements-icons);
     margin: 0 30px;
+    border-radius: 10px;
 }
