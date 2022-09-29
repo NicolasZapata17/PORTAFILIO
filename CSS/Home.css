@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Raleway:wght@300;400;600&display=swap');
+
+:root {
+    --theme-color: #2D2D2A;
+    --elements-icons: #E5DCC5;
+    --text-primary: #82C09A;
+    --text-secundary: #8EB19D;
+    --menu-mobile-background-color: #F0EFF4;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--theme-color);
+    color: var(--text-primary);
+    background-size: 100%;
+}
+
+/* Begin of navbar section */
+a{
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.topheader {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.topnavbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.logo img {
+    height:100px;
+    border-radius: 50px;
+}
+
+/* menu */
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li{
+    padding: 0 15px;
+}
+
+.menu a{
+    color: var(--text-secundary);
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+/* End of navbar section*/
+
+
+/* Begin of main section */
+
+
+
+.title h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    word-spacing: 10px;
+    font-size: 150px;
+    font-weight: 400;
+    position: relative;
+    z-index: 2;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.capa {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: var(--theme-color);
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+}
+
+.parrafo {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+hr {
+    position: relative;
+    z-index: 2;
+    height: 3px;
+    width: 400px;
+    margin: 5px auto;
+}
