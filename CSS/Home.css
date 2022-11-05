@@ -180,7 +180,7 @@ hr:hover{
 }
 
 .footer img {
-    background:var(--text-secundaryñ);
+    background:var(--elements-icons);
     margin: 0 30px;
     border-radius: 10px;
 }
