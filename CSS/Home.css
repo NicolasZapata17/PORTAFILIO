@@ -72,6 +72,13 @@ a{
     padding: 0 15px;
 }
 
+.menu li :hover {
+    padding: 5px 20px;
+    background-color: #82C09A;
+    color: #2D2D2A;
+    border-radius: 10px;
+}
+
 .menu a{
     color: var(--text-secundary);
     font-size: 20px;
@@ -147,6 +154,12 @@ hr:hover{
     margin-top: 30px;
 }
 
+.buttons :hover{
+    padding: 5px 20px;
+    background-color: #82C09A;
+    color: #2D2D2A;
+}
+
 .buttons button{
     background-color: var(--theme-color);
     font-family: var(--font-family-secundary);
@@ -181,6 +194,7 @@ hr:hover{
 
 .footer img {
     background:var(--elements-icons);
-    margin: 0 30px;
+    margin: 70px 30px;
     border-radius: 10px;
 }
+

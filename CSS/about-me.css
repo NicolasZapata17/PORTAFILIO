@@ -19,7 +19,7 @@
 
 body {
     font-family: var(--font-family-primary);
-    background-color: var(--theme-color);
+    background-image:url(/PORTAFOLIO/IMG/Background-3.jpeg);
     color: var(--text-primary);
     background-size: 100%;
 }
@@ -72,6 +72,13 @@ a{
     padding: 0 15px;
 }
 
+.menu li :hover {
+    padding: 5px 20px;
+    background-color: #82C09A;
+    color: #2D2D2A;
+    border-radius: 10px;
+}
+
 .menu a{
     color: var(--text-secundary);
     font-size: 20px;
@@ -102,18 +109,125 @@ video {
 }
 /* End of background styles */
 
+/* Begin of main section */
+
+.main {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+}
+
+.h1 {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    word-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.img-logo {
+    width: 200px;
+    border-radius: 30px;
+    margin: 50px 0;
+}
+
+.parrafo {
+    font-size: 25px;
+    font-weight:400;
+    text-align: center;
+    color: var(--text-secundary);
+}
+
+.button-main {
+    text-align: center;
+}
+
+.button-habilities {
+    background-color: var(--theme-color);
+    font-family: var(--font-family-secundary);
+    background-color: var(--theme-color);
+    color: var(--text-secundary);
+    font-weight: 300;
+    font-size: 30px;
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    margin: 60px 0;
+}
+
+.button-habilities:hover {
+    padding: 5px 20px;
+    background-color: #82C09A;
+    color: #2D2D2A;
+    cursor: pointer;
+}
+
+.h1-proyect {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    word-spacing: 10px;
+    margin: 70px 0;
+    text-transform: uppercase;
+}
+
+/* Begin of grid section */
+.grid-container {
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    column-gap: 100px;
+    justify-content: center;
+}
+
+.proyect {
+    font-family: var(--font-family-secundary);
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.card-1 {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.card-2 {
+    width: 400px;
+    height: 300px;
+    border-radius: 30px;
+}
+/* End of grid section */
+/* End of main section */
+
 
 /* Footer */
 .footer {
     position: relative;
     z-index: 2;
     text-align: end;
-    max-width: 1500px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .footer img {
     background:var(--elements-icons);
-    margin: 0 30px;
+    margin: 70px 30px;
     border-radius: 10px;
+}
+
+@media (max-width:1280px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 400px;
+        grid-template-rows: 400px 400px 400px;
+        row-gap: 100px;
+        justify-content: center;
+    }
 }
