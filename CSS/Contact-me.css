@@ -110,78 +110,7 @@ video {
 }
 /* End of background styles */
 
-/* Begin of main section */
 
-.title h1{
-    text-align: center;
-    font-family: var(--font-family-primary);
-    word-spacing: 10px;
-    font-size: 100px;
-    font-weight: 400;
-    margin-top: 50px;
-    position: relative;
-    z-index: 2;
-}
-
-.parrafo {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    font-size: 30px;
-    font-weight: 300;
-}
-
-hr {
-    position: relative;
-    z-index: 2;
-    height: 3px;
-    width: 400px;
-    margin: 5px auto;
-    background: var(--elements-icons);
-}
-hr:hover{
-    border-radius: 5px;
-    background: var(--elements-icons);
-    height: 5px;
-    width: 500px;
-    margin: 5px auto;
-}
-
-.buttons {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    margin-top: 30px;
-}
-
-.buttons :hover{
-    padding: 5px 20px;
-    background-color: #82C09A;
-    color: #2D2D2A;
-}
-
-.buttons button{
-    background-color: var(--theme-color);
-    font-family: var(--font-family-secundary);
-    font-weight: 300;
-    font-size: 30px;
-    border: 0;
-    border-radius: 10px;
-    margin: 30px 0;
-    padding: 7px 30px;
-}
-
-/* .buttons button:hover {
-    height: 100px;
-    width: 450px;
-    text-align: center;
-    margin-top: 30px;
-    position: relative;
-    z-index: 2;
-    background-color: ;
-    color: var(--text-primary);
-    transition-duration: 1s;
-} */
 
 /* Footer */
 .footer {
@@ -207,4 +136,3 @@ hr:hover{
         justify-content: center;
     }
 }
-
